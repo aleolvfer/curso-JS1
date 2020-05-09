@@ -1,5 +1,4 @@
 function clickLimpa(mome, peso, altura, gordura){
-    let form = document.querySelector("#Form-Adiciona");
 
     let inputPeso = document.querySelector("#peso"); 
     inputPeso.addEventListener("click", function(){

@@ -1,6 +1,5 @@
 function valida(paciente){
 
-    let form = document.querySelector("#Form-Adiciona");
     if(paciente.peso <= 0 || paciente.peso >= 600 || isNaN(paciente.peso) == true){
         var ps = false
         form.peso.value = "Peso inválido!";

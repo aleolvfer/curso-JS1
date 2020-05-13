@@ -21,4 +21,5 @@ adicionaPaciente.addEventListener("click", function(event){
         clickLimpa(paciente.nome, paciente.peso, paciente.altura, paciente.gordura);
 
     }
+
 });

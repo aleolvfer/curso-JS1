@@ -1,7 +1,7 @@
 function valida(paciente){
 
     if(paciente.peso <= 0 || paciente.peso >= 600 || isNaN(paciente.peso) == true){
-        var ps = false
+        var ps = false;
         form.peso.value = "Peso inválido!";
         form.peso.classList.add("paciente-invalido");
     }else{
@@ -9,7 +9,7 @@ function valida(paciente){
     }
 
     if(paciente.altura <= 0 || paciente.altura >= 3.00 || isNaN(paciente.altura) == true){
-        var alt = false
+        var alt = false;
         form.altura.value = "Altura inválida!";
         form.altura.classList.add("paciente-invalido");
     }else{

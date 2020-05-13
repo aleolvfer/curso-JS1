@@ -96,7 +96,7 @@ label{
 	padding: 10px 0px;
 }
 
-button{
+button, .botao-de-deleta{
 	padding: .5em 2em;
 	border: 0;
 	border-bottom: 3px solid;

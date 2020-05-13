@@ -114,6 +114,11 @@ button, .botao-de-deleta{
 
 }
 
+.deletando{
+	opacity : 0;
+	transition: 0.5s;
+}
+
 button:active{
 	margin-top:0px;
 	border: 0;

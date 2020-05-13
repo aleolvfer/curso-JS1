@@ -7,7 +7,13 @@ function deletaPaciente(){
 
     botao.addEventListener("dblclick", function(event){
         var deleta = event.target.parentNode;
-        deleta.parentNode.remove();
+        deleta.parentNode.classList.add("deletando");
+
+        setTimeout(function(){
+            deleta.parentNode.remove();
+        }, 500);
+
+        
     });
 
     tdBotao.appendChild(botao);

@@ -52,15 +52,22 @@ section h2{
 }
 
 table{
-	width: 100%;
+	width: 90%;
 	margin-bottom : .5em;
     table-layout: fixed;
 
 }
 
-td, th {
+
+th {
 	padding: .7em;
 	margin: 0;
+	border: 1px solid #ccc;
+	text-align: center;
+} 
+
+td, th {
+	padding: .7em;
 	border: 1px solid #ccc;
 	text-align: center;
 }
@@ -96,7 +103,7 @@ label{
 	padding: 10px 0px;
 }
 
-button, .botao-de-deleta{
+.botao-adiciona{
 	padding: .5em 2em;
 	border: 0;
 	border-bottom: 3px solid;
@@ -113,6 +120,23 @@ button, .botao-de-deleta{
     margin: 10px 0px;
 
 }
+
+.botao-de-deleta{
+	border: 0;
+	border-bottom: 3px solid;
+	font-size: 1.2em;
+	cursor: pointer;
+	color: #fff;
+	background-color:#b10808;
+	border-color: #04324c;
+    display: block;
+    clear: both;
+	margin: 0px 0px;
+	content: 1%;
+	display: inline;
+
+}
+
 
 .deletando{
 	opacity : 0;

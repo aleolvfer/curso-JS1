@@ -170,8 +170,8 @@ button[disabled=disabled], button:disabled {
 	border: 2px solid red !important;
 }
 
-#filtrar-paciente{
-	width: 142px;
+#filtrar-nome, #filtrar-peso{
+	width: 135px;
 	margin-bottom: 5px;
 }
 

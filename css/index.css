@@ -165,3 +165,16 @@ button[disabled=disabled], button:disabled {
 .paciente-invalido{
 	color:red;
 }
+
+.editando-paciente {
+	border: 2px solid red !important;
+}
+
+#filtrar-paciente{
+	width: 142px;
+	margin-bottom: 5px;
+}
+
+.invisivel{
+	display: none;
+}

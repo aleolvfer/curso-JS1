@@ -15,7 +15,7 @@ adicionaPaciente.addEventListener("click", function(event){
         let tabela = document.querySelector("#tabela-pacientes");
         tabela.appendChild(pacienteTr);
         form.reset();
-
+        
     }else{
 
         clickLimpa(paciente.nome, paciente.peso, paciente.altura, paciente.gordura);

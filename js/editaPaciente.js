@@ -4,14 +4,15 @@ let botaoEdita = document.querySelector("#editar-paciente");
 
 tabela.addEventListener("dblclick", function(event){
     
-    var selecionado = true;
+    if(event.target.tagName !== "TBODY"){
+        var selecionado = true;
 
     event.target.parentNode.classList.add("editando-paciente");
 
     var recebe = obtemPacienteSelecionado(event);
     form.nome.focus();
     
-
+    console.log(event);
     botaoEdita.addEventListener("click", function(evento){
         
         evento.preventDefault();
@@ -28,6 +29,7 @@ tabela.addEventListener("dblclick", function(event){
 
             form.reset();
             event.target.parentNode.classList.remove("editando-paciente");
+            
             selecionado = false;
 
         }else{
@@ -35,4 +37,5 @@ tabela.addEventListener("dblclick", function(event){
             
         }    
     });
+    }
 });
